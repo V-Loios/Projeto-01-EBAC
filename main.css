@@ -18,8 +18,8 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: #7c4614;
-    color:#ecf0f1;
+    background-color: #5a2f06;
+    color:#f3d219;
 }
 
 header nav li {
@@ -29,7 +29,7 @@ header nav li {
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: #f3d219;
     text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ header nav li a {
 }
 
 header .container , 
-section .container {
+section .container, #contact h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,12 +65,12 @@ section .container {
 
 section {
     padding: 24px 0;
-    color: #000000;
+    color: #ffffff;
 }
 
 section h2 {
     margin-bottom: 16px;
-    color: #000000;
+    color: #ffffff;
 }
 
 section p {
@@ -114,22 +114,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182c61;
+    background-color: #5a2f06;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #2f4b9b;
+    background-color: #e97312;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182c61;
+    outline-color: #e97312;
 }
 
 footer {
-    background-color: #182c61;
+    background-color: #5a2f06;
     color: #ecf0f1;
     padding: 16px 0;
 }
@@ -152,4 +152,8 @@ footer {
 #text-about {
     text-align: justify;
     display: inline-block;
+}
+
+body {
+    background-color: #7c4614;
 }
